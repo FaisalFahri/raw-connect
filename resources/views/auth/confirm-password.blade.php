@@ -14,7 +14,11 @@
                                     type="password"
                                     name="password"
                                     required autocomplete="current-password" />
-                    <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                    @error('password')
+                        <div class="invalid-feedback d-block">
+                            {{ $message }}
+                        </div>
+                    @enderror
                 </div>
 
                 <div class="d-flex justify-content-end mt-4">
