@@ -12,7 +12,7 @@
         </div>
 
         <div class="card shadow rounded-4 border-0">
-            <div class="card-body px-4 py-3">
+            <div class="card-body p-2">
                 <h5 class="mb-4 fw-semibold">Daftar Kategori</h5>
 
                 <div class="table-responsive">

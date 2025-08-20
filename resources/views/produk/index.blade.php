@@ -1,6 +1,6 @@
     <x-layout>
         <x-slot:title>{{ $title }}</x-slot:title>
-        <div class="container py-0">
+        <div class="container py-1">
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <a href="{{ route('superadmin.master.index') }}" class="btn btn-light d-flex align-items-center border shadow-sm gap-2">
                     <i class="bi bi-arrow-left me-2"></i> <span>Kembali</span>

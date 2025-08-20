@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
-    <div class="container py-0">
+    <div class="container py-1">
         {{-- Tombol Tambah (FAB) dengan Gate yang benar --}}
         @can('create-shipments')
             <a href="{{ route('pengiriman.create') }}" 

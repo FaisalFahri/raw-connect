@@ -14,7 +14,7 @@
 
         {{-- Card Table --}}
         <div class="card border-0 shadow rounded-4">
-            <div class="card-body p-4">
+            <div class="card-body p-2">
                 <div class="table-responsive">
                     <table class="table align-middle table-hover">
                         <thead class="table-light">
