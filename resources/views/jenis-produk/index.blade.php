@@ -5,10 +5,10 @@
         {{-- HEADER --}}
         <div class="d-flex justify-content-between align-items-center mb-4">
             <a href="{{ route('superadmin.master.index') }}" class="btn btn-light d-flex d-flex align-items-center border shadow-sm gap-2">
-                <i class="bi bi-arrow-left me-2"></i> Kembali
+                <i class="bi bi-arrow-left me-2"></i> <span>Kembali</span>
             </a>
                 <a href="{{ route('superadmin.jenis-produk.create') }}" class="btn btn-primary shadow-sm d-flex align-items-center gap-2">
-                    <i class="bi bi-plus-circle me-2"></i>Tambah Jenis Produk
+                    <i class="bi bi-plus-circle me-2"></i><span>Tambah Jenis Produk</span>
                 </a>
         </div>
 

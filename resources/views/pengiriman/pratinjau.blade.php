@@ -1,7 +1,7 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
 
-    <div class="container py-1">
+    <div class="container py-0">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <a href="{{ route('pengiriman.create') }}" class="btn btn-outline-secondary" title="Kembali">
                 <i class="bi bi-arrow-left"></i>

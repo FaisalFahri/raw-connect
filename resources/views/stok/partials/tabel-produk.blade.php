@@ -1,4 +1,4 @@
-<div class="table-responsive rounded-4 shadow-sm border bg-white p-3">
+<div class="table-responsive rounded-4 shadow-sm border bg-white p-0">
     <table class="table align-middle table-hover mb-0">
         <thead class="table-light border-bottom">
             <tr>

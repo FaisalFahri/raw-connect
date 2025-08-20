@@ -45,7 +45,7 @@ class DashboardController extends Controller
         ];
 
         if ($user->can('create-shipments')) {
-            $data['jumlah_pratinjau'] = PratinjauItem::where('user_id', $user->id)->count();
+            $data['jumlah_pratinjau'] = PratinjauItem::count();
         }
 
         return $data;

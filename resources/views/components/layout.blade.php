@@ -23,7 +23,7 @@
     </x-header>
 
     {{-- Konten Utama Halaman --}}
-    <div class="container py-2">
+    <div class="container py-0">
         {{ $slot }}
     </div>
 

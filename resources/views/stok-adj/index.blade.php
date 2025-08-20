@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12">
                 <div class="card border-0 shadow rounded-4">
-                    <div class="card-body p-4">
+                    <div class="card-body p-2">
                         {{-- Form utama kita --}}
                         <form action="{{ route('stok-adj.store') }}" method="POST" id="stokAdjustmentForm">
                             @csrf

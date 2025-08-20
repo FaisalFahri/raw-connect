@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
-    <div class="container py-1">
+    <div class="container py-0">
         {{-- Tombol Tambah (FAB) dengan Gate yang benar --}}
         @can('create-shipments')
             <a href="{{ route('pengiriman.create') }}" 
@@ -11,7 +11,7 @@
         @endcan
 
     <div class="nav-wrapper border-bottom mb-3" style="overflow-x: auto;">
-        <ul class="nav nav-tabs nav-fill flex-nowrap gap-2 px-2" id="pengirimanTab" role="tablist" style="min-width: max-content;">
+        <ul class="nav nav-tabs nav-fill flex-nowrap gap-2 px-1" id="pengirimanTab" role="tablist" style="min-width: max-content;">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active px-3 py-2 d-flex align-items-center justify-content-between text-nowrap w-100" 
                     id="proses-tab" data-bs-toggle="tab" data-bs-target="#proses" type="button" role="tab">
